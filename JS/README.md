@@ -20,7 +20,7 @@ Estas son mis soluciones para el Advent.js de [@MiduDev](https://github.com/midu
 | 02  |       🖼 Enmarcando nombres       |       ✅        | [Mirar](Reto%2302.js) |   5 ⭐   |    🟢    |  
 | 03  |   🏗 Organizando el inventario    |       ✅        | [Mirar](Reto%2303.js) |   3 ⭐   |    🟢    |  
 | 04  | 🎄 Decorando el árbol de Navidad  |       ✅        | [Mirar](Reto%2304.js) |   5 ⭐   |    🟢    |  
-| 05  |       👞 Emparejando botas        |       ✅        | [Mirar](Reto%2305.js) |         |    ⌚    |  
+| 05  |       👞 Emparejando botas        |       ✅        | [Mirar](Reto%2305.js) |   4 ⭐   |    🟢    |  
 | 06  |   📦 ¿Regalo dentro de la caja?   |       ✅        | [Mirar](Reto%2306.js) |         |    ⌚    |  
 | 07  |                                   |       ❌        | [Mirar](Reto%2307.js) |         |    ⌚    |  
 | 08  |                                   |       ❌        | [Mirar](Reto%2308.js) |         |    ⌚    |  
