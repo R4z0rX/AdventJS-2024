@@ -18,8 +18,8 @@ Estas son mis soluciones para el Advent.js de [@MiduDev](https://github.com/midu
 | :-: | :------------------------------------------------------------------: | :------------:  | :----------------------------------------: | :---------: | :---------: |
 | 01  |   🎁 ¡Primer regalo repartido!    |       ✅        | [Mirar](Reto#01.js) |   5 ⭐   |    🟢    |  
 | 02  |       🖼 Enmarcando nombres       |       ✅        | [Mirar](Reto#02.js) |   5 ⭐   |    🟢    |  
-| 03  |   🏗 Organizando el inventario    |       ✅        | [Mirar](Reto#03.js) |         |    ⌚    |  
-| 04  | 🎄 Decorando el árbol de Navidad  |       ✅        | [Mirar](Reto#04.js) |         |    ⌚    |  
+| 03  |   🏗 Organizando el inventario    |       ✅        | [Mirar](Reto#03.js) |   3 ⭐   |    🟢    |  
+| 04  | 🎄 Decorando el árbol de Navidad  |       ✅        | [Mirar](Reto#04.js) |   5 ⭐   |    🟢    |  
 | 05  |       👞 Emparejando botas        |       ✅        | [Mirar](Reto#05.js) |         |    ⌚    |  
 | 06  |   📦 ¿Regalo dentro de la caja?   |       ✅        | [Mirar](Reto#06.js) |         |    ⌚    |  
 | 07  |                                   |       ❌        | [Mirar](Reto#07.js) |         |    ⌚    |  
