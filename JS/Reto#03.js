@@ -28,8 +28,13 @@ const inventory = [
  * @returns {object} The organized inventory
  */
 function organizeInventory(inventory) {
-    // Code here
-    return {}
+    let organizedInventory = {}
+    inventory.forEach(item => {
+        if (!organizedInventory[item.category]) organizedInventory[item.category] = {}
+        if (!organizedInventory[item.category][item.name]) organizedInventory[item.category][item.name] = 0
+        organizedInventory[item.category][item.name] += item.quantity
+    })
+    return organizedInventory
 }
 
 // Tests
@@ -41,7 +46,7 @@ const inventory = [
     { name: 'racket', quantity: 4, category: 'sports' }
   ]
   
-  organizeInventory(inventory)
+  console.log(organizeInventory(inventory))
   
   // Resultado esperado:
   // {
@@ -60,7 +65,7 @@ const inventory = [
     { name: 'paint', quantity: 3, category: 'art' }
   ]
   
-  organizeInventory(inventory2)
+  console.log(organizeInventory(inventory2))
   
   // Resultado esperado:
   // {
