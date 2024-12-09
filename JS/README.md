@@ -23,8 +23,8 @@ Estas son mis soluciones para el Advent.js de [@MiduDev](https://github.com/midu
 | 05  |       👞 Emparejando botas        |       ✅        | [Mirar](Reto%2305.js) |   4 ⭐   |    🟢    |  
 | 06  |   📦 ¿Regalo dentro de la caja?   |       ✅        | [Mirar](Reto%2306.js) |   5 ⭐   |    🟢    |  
 | 07  |      👹 El ataque del Grinch      |       ✅        | [Mirar](Reto%2307.js) |   5 ⭐   |    🟢    |  
-| 08  |    🦌 La carrera de los renos     |       ✅        | [Mirar](Reto%2308.js) |         |    ⌚    |  
-| 09  |        🚂 El tren mágico          |       ❌        | [Mirar](Reto%2309.js) |         |    ⌚    |  
+| 08  |    🦌 La carrera de los renos     |       ✅        | [Mirar](Reto%2308.js) |   5 ⭐   |    🟢    |  
+| 09  |        🚂 El tren mágico          |       ✅        | [Mirar](Reto%2309.js) |   5 ⭐   |    🟢    |  
 | 10  |                                   |       ❌        | [Mirar](Reto%2310.js) |         |    ⌚    |  
 | 11  |                                   |       ❌        | [Mirar](Reto%2311.js) |         |    ⌚    |  
 | 12  |                                   |       ❌        | [Mirar](Reto%2312.js) |         |    ⌚    |  
