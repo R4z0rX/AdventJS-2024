@@ -18,18 +18,18 @@ Estas son mis soluciones para el Advent.js de [@MiduDev](https://github.com/midu
 | :-: | :------------------------------------------------------------------: | :------------:  | :----------------------------------------: | :---------: | :---------: |
 | 01  |   🎁 ¡Primer regalo repartido!    |       ✅        | [Mirar](Reto%2301.js) |   5 ⭐   |    🟢    |  
 | 02  |       🖼 Enmarcando nombres       |       ✅        | [Mirar](Reto%2302.js) |   5 ⭐   |    🟢    |  
-| 03  |   🏗 Organizando el inventario    |       ✅        | [Mirar](Reto%2303.js) |   3 ⭐   |    🟢    |  
+| 03  |   🏗 Organizando el inventario    |       ✅        | [Mirar](Reto%2303.js) |   5 ⭐   |    🟢    |  
 | 04  | 🎄 Decorando el árbol de Navidad  |       ✅        | [Mirar](Reto%2304.js) |   5 ⭐   |    🟢    |  
-| 05  |       👞 Emparejando botas        |       ✅        | [Mirar](Reto%2305.js) |   4 ⭐   |    🟢    |  
+| 05  |       👞 Emparejando botas        |       ✅        | [Mirar](Reto%2305.js) |   5 ⭐   |    🟢    |  
 | 06  |   📦 ¿Regalo dentro de la caja?   |       ✅        | [Mirar](Reto%2306.js) |   5 ⭐   |    🟢    |  
 | 07  |      👹 El ataque del Grinch      |       ✅        | [Mirar](Reto%2307.js) |   5 ⭐   |    🟢    |  
 | 08  |    🦌 La carrera de los renos     |       ✅        | [Mirar](Reto%2308.js) |   5 ⭐   |    🟢    |  
 | 09  |        🚂 El tren mágico          |       ✅        | [Mirar](Reto%2309.js) |   5 ⭐   |    🟢    |  
-| 10  |                                   |       ❌        | [Mirar](Reto%2310.js) |         |    ⌚    |  
-| 11  |                                   |       ❌        | [Mirar](Reto%2311.js) |         |    ⌚    |  
-| 12  |                                   |       ❌        | [Mirar](Reto%2312.js) |         |    ⌚    |  
-| 13  |                                   |       ❌        | [Mirar](Reto%2313.js) |         |    ⌚    |  
-| 14  |                                   |       ❌        | [Mirar](Reto%2314.js) |         |    ⌚    |  
+| 10  |    👩‍💻 El ensamblador élfico       |       ✅        | [Mirar](Reto%2310.js) |   5 ⭐   |    🟠    |  
+| 11  |🏴‍☠️ Nombres de archivos codificados |       ✅        | [Mirar](Reto%2311.js) |   5 ⭐   |    🟢    |  
+| 12  |   💵 ¿Cuánto cuesta el árbol?     |       ✅        | [Mirar](Reto%2312.js) |   5 ⭐   |    🟢    |  
+| 13  |   🤖 ¿El robot está de vuelta?    |       ✅        | [Mirar](Reto%2313.js) |   5 ⭐   |   🔴    |  
+| 14  |     🦌 Acomodando los renos       |       ✅        | [Mirar](Reto%2314.js) |   5 ⭐   |    🟢    |  
 | 15  |                                   |       ❌        | [Mirar](Reto%2315.js) |         |    ⌚    |  
 | 16  |                                   |       ❌        | [Mirar](Reto%2316.js) |         |    ⌚    |  
 | 17  |                                   |       ❌        | [Mirar](Reto%2317.js) |         |    ⌚    |  
