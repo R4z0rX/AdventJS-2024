@@ -30,8 +30,8 @@ Estas son mis soluciones para el Advent.js de [@MiduDev](https://github.com/midu
 | 12  |   💵 ¿Cuánto cuesta el árbol?     |       ✅        | [Mirar](Reto%2312.js) |   5 ⭐   |    🟢    |  
 | 13  |   🤖 ¿El robot está de vuelta?    |       ✅        | [Mirar](Reto%2313.js) |   5 ⭐   |   🔴    |  
 | 14  |     🦌 Acomodando los renos       |       ✅        | [Mirar](Reto%2314.js) |   5 ⭐   |    🟢    |  
-| 15  |                                   |       ❌        | [Mirar](Reto%2315.js) |         |    ⌚    |  
-| 16  |                                   |       ❌        | [Mirar](Reto%2316.js) |         |    ⌚    |  
+| 15  |       ✏️ Dibujando tablas         |       ✅        | [Mirar](Reto%2315.js) |   5 ⭐   |    🟢    |  
+| 16  | ❄️ Limpiando la nieve del camino  |       ✅        | [Mirar](Reto%2316.js) |   5 ⭐   |    🟢    |  
 | 17  |                                   |       ❌        | [Mirar](Reto%2317.js) |         |    ⌚    |  
 | 18  |                                   |       ❌        | [Mirar](Reto%2318.js) |         |    ⌚    |  
 | 19  |                                   |       ❌        | [Mirar](Reto%2319.js) |         |    ⌚    |  
