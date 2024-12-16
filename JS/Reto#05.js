@@ -17,10 +17,10 @@ Tu tarea es ayudar a los elfos a emparejar todas las botas del mismo tamaño que
 function organizeShoes(shoes) {
     let organizedShoes = {}
 
-    shoes.forEach(shoe => {
+    for (let shoe of shoes) {
         if (!organizedShoes[shoe.size]) organizedShoes[shoe.size] = { I: 0, R: 0 }
-        organizedShoes[shoe.size][shoe.type] += 1
-    })
+        organizedShoes[shoe.size][shoe.type]++
+    }
     let available = []
 
     for (let size in organizedShoes) {
@@ -35,6 +35,7 @@ function organizeShoes(shoes) {
 
     return available
 }
+
 
 // Tests
 const shoes = [

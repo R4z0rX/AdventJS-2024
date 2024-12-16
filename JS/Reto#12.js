@@ -36,7 +36,6 @@ function calculatePrice(ornaments) {
         '^': 10,
         '#': 50,
         '@': 100
-
     }
 
     const total = ornaments.split("")
