@@ -36,12 +36,15 @@ function calculatePrice(ornaments) {
         '^': 10,
         '#': 50,
         '@': 100
+
     }
+
     const total = ornaments.split("")
         .map(ornament => prices[ornament])
         .reduce((acc, price, index, arr) => {
             return price < arr[index + 1] ? acc - price : acc + price
         }, 0)
+
     return total || undefined
 }
 

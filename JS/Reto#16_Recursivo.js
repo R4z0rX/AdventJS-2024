@@ -36,6 +36,7 @@ function removeSnow(s) {
         }
         return s
     }
+
     return f(s)
 }
 

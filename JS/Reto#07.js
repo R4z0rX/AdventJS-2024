@@ -33,13 +33,16 @@ fixPackages('a(b(c))e')
  */
 function fixPackages(packages) {
     let sortedPackages = packages
+
     while (sortedPackages.includes('(')) {
         let startIdx = sortedPackages.lastIndexOf('(')
         let endIdx = sortedPackages.indexOf(')', startIdx)
         let tmp = sortedPackages.substring(startIdx, endIdx + 1)
         let reverse = [...tmp].slice(1, -1).reverse().join("")
+
         sortedPackages = sortedPackages.replace(tmp, reverse)
-    } 
+    }
+
     return sortedPackages
 }
 

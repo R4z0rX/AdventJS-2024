@@ -48,15 +48,17 @@ drawRace([3, 7, -2], 12)
  */
 function drawRace(indices, length) {
     let c = []
+
     for (let i = 0; i < indices.length; i++) {
         c[i] = "~".repeat(length)
         if (indices[i] > 0) {
             c[i] = c[i].slice(0, indices[i]) + "r" + c[i].slice(indices[i] + 1)
         } else if (indices[i] < 0) {
-            c[i] = c[i].slice(0, length + indices[i]) + "r" + c[i].slice(length + indices[i] + 1)       
+            c[i] = c[i].slice(0, length + indices[i]) + "r" + c[i].slice(length + indices[i] + 1)
         }
         c[i] = " ".repeat(indices.length - i - 1) + c[i] + " /" + (i + 1)
     }
+    
     return [...c].join("\n")
 }
 

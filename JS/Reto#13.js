@@ -40,9 +40,11 @@ isRobotBack('UU!U?D') // [0,1]
 function isRobotBack(moves) {
     let newmoves = ""
     let i = x = y = 0
-    const changes = {U: "D", D: "U", R: "L", L: "R"}
+    const changes = { U: "D", D: "U", R: "L", L: "R" }
+
     while (i < moves.length) {
         let move = moves[i]
+
         switch (move) {
             case "*":
                 newmoves += moves[i + 1]
@@ -57,23 +59,28 @@ function isRobotBack(moves) {
         }
         i++
     }
+
     while (newmoves.includes("?")) {
         let idx = newmoves.indexOf("?")
         let v = newmoves.substring(idx, idx + 2)
         let tmp = newmoves.slice(0, idx)
+
         if (!tmp.includes(v[1])) {
             newmoves = newmoves.replace(v, v[1])
         } else {
             newmoves = newmoves.replace(v, "")
         }
     }
+
     const op = {
         R: () => y++,
         L: () => y--,
         U: () => x++,
         D: () => x--
     }
+
     for (const m of newmoves) op[m]()
+
     return x === 0 && y === 0 || [y, x]
 }
 

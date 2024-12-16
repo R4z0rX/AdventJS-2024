@@ -56,13 +56,16 @@ Asegúrate de utilizar saltos de línea \n al final de cada línea, excepto en l
  */
 function createXmasTree(height, ornament) {
     let s = ""
-    for (let i=0; i<height; i++) {
+
+    for (let i = 0; i < height; i++) {
         let sp = "_".repeat(i)
-        s = sp + ornament.repeat(1+(height-i-1)*2) + sp + "\n" + s
+        s = sp + ornament.repeat(1 + (height - i - 1) * 2) + sp + "\n" + s
     }
-    let sp = "_".repeat(height-1)
+
+    let sp = "_".repeat(height - 1)
     let b = sp + "#" + sp
     s += b + "\n" + b
+
     return s
 }
 

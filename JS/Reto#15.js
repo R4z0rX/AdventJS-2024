@@ -49,25 +49,33 @@ drawTable([
 function drawTable(data) {
     const columns = Object.keys(data[0]).map(key => key)
     const columnWidths = columns.map(column => {
-      return Math.max(column.length, ...data.map(item => {
-        return item[column].toString().length
-      }))
+        return Math.max(column.length, ...data.map(item => {
+            return item[column].toString().length
+        }))
     })
+
     const separator = () => {
-      return "+" + columns.map((_, i) => "-".repeat(columnWidths[i] + 2)).join("+") + "+"
+        return "+" + columns.map((_, i) => "-".repeat(columnWidths[i] + 2)).join("+") + "+"
     }
+
     const row = (item) => {
-      return "|" + columns.map((column, i) => " " + item[column] + " ".repeat(columnWidths[i] - (item.hasOwnProperty(column) ? item[column].toString().length : 0))).join(" |") + " |"
+        return "|" + columns.map((column, i) => " " + item[column] + " ".repeat(columnWidths[i] - (item.hasOwnProperty(column) ? item[column].toString().length : 0))).join(" |") + " |"
     }
+
     let table = separator() + "\n"
+
     columns.forEach(item => {
-        table += "| " + item.charAt(0).toUpperCase() + item.slice(1) + " ".repeat(columnWidths[columns.indexOf(item)] - item.length +1)
-      })
-    table += "|\n" + separator() + "\n"
-    data.forEach(item => {
-      table += row(item) + "\n"
+        table += "| " + item.charAt(0).toUpperCase() + item.slice(1) + " ".repeat(columnWidths[columns.indexOf(item)] - item.length + 1)
     })
+
+    table += "|\n" + separator() + "\n"
+
+    data.forEach(item => {
+        table += row(item) + "\n"
+    })
+
     table += separator()
+    
     return table
 }
 

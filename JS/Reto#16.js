@@ -27,13 +27,10 @@ removeSnow('a') // -> "a"
  * @param {string} s
  * @returns {string}
  */
-/**
- * @param {string} s
- * @returns {string}
- */
 function removeSnow(s) {
     let r = [...s]
     let i = 1
+    
     while (i < r.length) {
         if (r[i] === r[i - 1]) {
             r.splice(i - 1, 2)
@@ -42,6 +39,7 @@ function removeSnow(s) {
             i++
         }
     }
+
     return r.join("")
 }
 

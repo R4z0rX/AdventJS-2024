@@ -56,6 +56,7 @@ function moveTrain(board, mov) {
         let x = board[y].indexOf(c)
         return [x, y]
     }
+
     const newPos = (pos) => {
         const moves = {
             'L': [pos[0] - 1, pos[1]],
@@ -65,14 +66,17 @@ function moveTrain(board, mov) {
         }
         return moves[mov]
     }
+
     let lPos = getPos("@")
     let nPos = newPos(lPos)
+    
     const result = {
         '·': 'none',
         '*': 'eat',
         '@': 'crash',
         'o': 'crash' 
     }
+
     return result[board[nPos[1]]?.[nPos[0]]] ?? 'crash';
 }
 

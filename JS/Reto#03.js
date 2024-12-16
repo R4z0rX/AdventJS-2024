@@ -29,11 +29,13 @@ const inventory = [
  */
 function organizeInventory(inventory) {
     let organizedInventory = {}
-    inventory.forEach(item => {
+
+    for (let item of inventory) {
         if (!organizedInventory[item.category]) organizedInventory[item.category] = {}
         if (!organizedInventory[item.category][item.name]) organizedInventory[item.category][item.name] = 0
         organizedInventory[item.category][item.name] += item.quantity
-    })
+    }
+
     return organizedInventory
 }
 

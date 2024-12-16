@@ -43,18 +43,22 @@ compile(instructions) // -> 2
 function compile(instructions) {
     const result = {}
     let idx = 0
+
     const instSet = {
         DEC: (r) => result[r]--,
         INC: (r) => result[r]++,
-        MOV: (x,y) => result[y] = isNaN(x) ? result[x] : +x,
-        JMP: (r,i) => { if(result[r] === 0) idx = i - 1 }
+        MOV: (x, y) => result[y] = isNaN(x) ? result[x] : +x,
+        JMP: (r, i) => { if (result[r] === 0) idx = i - 1 }
     }
+
     while (idx < instructions.length) {
         const [op, x, y] = instructions[idx].split(" ")
-        if (result[x] === undefined ) result[x] = 0
-        instSet[op](x, y)        
+        
+        if (result[x] === undefined) result[x] = 0
+        instSet[op](x, y)
         idx++
     }
+
     return result["A"]
 }
 

@@ -45,6 +45,7 @@ inBox([
  */
 function inBox(box) {
     let r = false
+
     box.slice(1, -1).every(s => {
         if (s.includes("*")) {
             if (s.startsWith("#") && s.endsWith("#")) {
@@ -54,6 +55,7 @@ function inBox(box) {
         }
         return true
     })
+
     return r
 }
 

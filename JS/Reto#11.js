@@ -30,6 +30,7 @@ decodeFilename('987654321_elf-roster.csv.tempfile')
  */
 function decodeFilename(filename) {
     let match = filename.match(/^\d+_(.+\.[a-zA-Z0-9]+)\./)
+    
     return match ? match[1] : ''
 }
 

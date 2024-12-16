@@ -56,6 +56,7 @@ function moveTrain(board, mov) {
         let x = board[y].indexOf(c)
         return [x, y]
     }
+
     const newPos = (pos, m) => {
         let x, y
         switch (m) {
@@ -78,9 +79,10 @@ function moveTrain(board, mov) {
         }
         return [x, y]
     }
+
     const result = (endPos) => {
-        if (endPos[0] < 0 || endPos[1] < 0 || 
-        endPos[0] > board[0].length || endPos[1] > board.length) return 'crash'
+        if (endPos[0] < 0 || endPos[1] < 0 ||
+            endPos[0] > board[0].length || endPos[1] > board.length) return 'crash'
         let c = board[endPos[1]][endPos[0]]
         switch (c) {
             case "o":
@@ -94,8 +96,10 @@ function moveTrain(board, mov) {
                 break;
         }
     }
+
     let lPos = getPos("@")
     let nPos = newPos(lPos, mov)
+
     return result(nPos)
 }
 
