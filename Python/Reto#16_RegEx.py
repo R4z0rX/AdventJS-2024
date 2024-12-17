@@ -1,4 +1,4 @@
-def remove_snow(s):
+def remove_snow(s: str) -> str:
     import re
     
     regex = re.compile(r"(.)\1")
