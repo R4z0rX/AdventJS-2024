@@ -36,21 +36,16 @@ findInAgenda(agenda, '1')
  * @returns {{ name: string, address: string } | null}
  */
 function findInAgenda(agenda, phone) {
-    let res = {}
-    let c = 0
-    let a = agenda.split("\n")
-
-    for (i of a) {
-        if (i.includes(phone)) {
-            let ph = i.substr(i.indexOf("+"), 15).trim()
-            let s = i.replace(ph, "")
-            let name = i.slice(i.indexOf("<") + 1, i.indexOf(">"))
-            let addr = s.replace(name, "").replace("<>", "").trim()
-            res = Object.fromEntries([["name", name], ["address", addr]])
-            c++
-        }
+    let n = agenda.indexOf(phone)
+    let res = null
+    
+    if (n > 0 && agenda.lastIndexOf(phone) - n == 0) {
+        let i = agenda.split("\n").find(e => e.includes(phone))
+        let ph = i.substr(i.indexOf("+"), 15).trim()
+        let name = i.slice(i.indexOf("<") + 1, i.indexOf(">"))
+        let addr = i.replace(ph, "").replace(name, "").replace("<>", "").trim()
+        res = Object.fromEntries([["name", name], ["address", addr]])
     }
-    if (c != 1) return null
 
     return res
 }
