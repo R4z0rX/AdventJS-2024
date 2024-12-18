@@ -44,15 +44,19 @@ inBox([
  *  @returns {boolean} True if the gift is inside the box
  */
 function inBox(box) {
-    for (let s of box.slice(1, -1)) {
+    let r = false
+
+    box.slice(1, -1).every(s => {
         if (s.includes("*")) {
             if (s.startsWith("#") && s.endsWith("#")) {
-                return true
+                r = true
+                return false
             }
         }
-    }
-    
-    return false
+        return true
+    })
+
+    return r
 }
 
 // Tests

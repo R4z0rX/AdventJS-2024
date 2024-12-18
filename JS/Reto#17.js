@@ -48,29 +48,22 @@ function detectBombs(grid) {
     const cols = grid[0].length
     const directions = [
         [-1, -1], [-1, 0], [-1, 1],
-        [0, -1], [0, 1],
+        [0, -1],/*[0,0]*/[0, 1],
         [1, -1], [1, 0], [1, 1]
     ]
-
-    function countAdjacentBombs(r, c) {
-        let count = 0
-
-        for (let [dr, dc] of directions) {
-            let nr = r + dr
-            let nc = c + dc
-
-            if (nr >= 0 && nr < rows && nc >= 0 && nc < cols && grid[nr][nc]) {
-                count++
-            }
-        }
-        return count
-    }
 
     let result = Array.from({ length: rows }, () => Array(cols).fill(0))
 
     for (let r = 0; r < rows; r++) {
         for (let c = 0; c < cols; c++) {
-            result[r][c] = countAdjacentBombs(r, c)
+            for (let [dr, dc] of directions) {
+                let nr = r + dr
+                let nc = c + dc
+
+                if (nr >= 0 && nr < rows && nc >= 0 && nc < cols && grid[r][c]) {
+                    result[nr][nc]++
+                }
+            }
         }
     }
 
@@ -103,7 +96,6 @@ console.log(detectBombs([
     [false, false],
     [true, true]
   ]))
-
   // [
   //   [1, 1],
   //   [4, 4],
