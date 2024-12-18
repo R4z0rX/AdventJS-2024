@@ -33,7 +33,7 @@ Estas son mis soluciones para el Advent.js de [@MiduDev](https://github.com/midu
 | 15  |       ✏️ Dibujando tablas         |       ✅        | [Mirar](Reto%2315.js) |   5 ⭐   |    🟢    |  
 | 16  | ❄️ Limpiando la nieve del camino  |       ✅        | [Mirar](Reto%2316.js) |   5 ⭐   |    🟢    |  
 | 17  |  💣 Busca las bombas del Grinch   |       ✅        | [Mirar](Reto%2317.js) |   5 ⭐   |    🟠    |  
-| 18  |                                   |       ❌        | [Mirar](Reto%2318.js) |         |    ⌚    |  
+| 18  |   📇 La agenda mágica de Santa    |       ✅        | [Mirar](Reto%2318.js) |   5 ⭐   |    🔴    |  
 | 19  |                                   |       ❌        | [Mirar](Reto%2319.js) |         |    ⌚    |  
 | 20  |                                   |       ❌        | [Mirar](Reto%2320.js) |         |    ⌚    |  
 | 21  |                                   |       ❌        | [Mirar](Reto%2321.js) |         |    ⌚    |  
