@@ -34,8 +34,8 @@ Estas son mis soluciones para el Advent.js de [@MiduDev](https://github.com/midu
 | 16  | ❄️ Limpiando la nieve del camino  |       ✅        | [Mirar](Reto%2316.js) |   5 ⭐   |    🟢    |  
 | 17  |  💣 Busca las bombas del Grinch   |       ✅        | [Mirar](Reto%2317.js) |   5 ⭐   |    🟠    |  
 | 18  |   📇 La agenda mágica de Santa    |       ✅        | [Mirar](Reto%2318.js) |   5 ⭐   |    🔴    |  
-| 19  |📦 Apila cajas mágicas para repartir regalos|       ✅        | [Mirar](Reto%2319.js) |   5 ⭐   |    🔴    |  
-| 20  |                                   |       ❌        | [Mirar](Reto%2320.js) |         |    ⌚    |  
+| 19  | 📦 Apila cajas mágicas para repartir regalos |       ✅        | [Mirar](Reto%2319.js) |   5 ⭐   |    🔴    |  
+| 20  | 🎁 Encuentra los regalos faltantes y duplicados |       ✅        | [Mirar](Reto%2320.js) |   5 ⭐   |    🟢    |  
 | 21  |                                   |       ❌        | [Mirar](Reto%2321.js) |         |    ⌚    |  
 | 22  |                                   |       ❌        | [Mirar](Reto%2322.js) |         |    ⌚    |  
 | 23  |                                   |       ❌        | [Mirar](Reto%2323.js) |         |    ⌚    |  
