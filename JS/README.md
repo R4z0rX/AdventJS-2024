@@ -37,7 +37,7 @@ Estas son mis soluciones para el Advent.js de [@MiduDev](https://github.com/midu
 | 19  | 📦 Apila cajas mágicas para repartir regalos |       ✅        | [Mirar](Reto%2319.js) |   5 ⭐   |    🔴    |  
 | 20  | 🎁 Encuentra los regalos faltantes y duplicados |       ✅        | [Mirar](Reto%2320.js) |   5 ⭐   |    🟢    |  
 | 21  | 🎄 Calcula la altura del árbol de Navidad |       ✅        | [Mirar](Reto%2321.js) |   5 ⭐   |    🟢    |  
-| 22  |                                   |       ❌        | [Mirar](Reto%2322.js) |         |    ⌚    |  
+| 22  | 🎁 Genera combinaciones de regalos |       ✅        | [Mirar](Reto%2322.js) |   5 ⭐   |    🟠    |  
 | 23  |                                   |       ❌        | [Mirar](Reto%2323.js) |         |    ⌚    |  
 | 24  |                                   |       ❌        | [Mirar](Reto%2324.js) |         |    ⌚    |  
 | 25  |                                   |       ❌        | [Mirar](Reto%2325.js) |         |    ⌚    |  

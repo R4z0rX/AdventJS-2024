@@ -60,7 +60,7 @@ function treeHeight(tree) {
     return r
 }
 
-// Testing
+// Tests
 const tree = {
   value: '🎁',
   left: {
@@ -97,3 +97,5 @@ const tree = {
 // Llamada a la función
 console.log(treeHeight(tree))
 // Devuelve: 3
+
+//module.exports = { treeHeight }
