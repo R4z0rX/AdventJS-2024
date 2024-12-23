@@ -40,7 +40,7 @@ Consejo: Hay muchas formas de solucionar este problema, pero el backtracking pue
  */
 function generateGiftSets(gifts) {
     const result = []
-    
+
     const combine = (current, index, size) => {
         if (current.length === size) {
             result.push(current)
@@ -81,3 +81,7 @@ console.log(generateGiftSets(['game', 'pc']))
 //   ['pc'],
 //   ['game', 'pc']
 // ]
+
+
+// La siguiente línea sólo es necesaria para ejecutar los tests de jest
+module.exports = { generateGiftSets }

@@ -98,4 +98,6 @@ const tree = {
 console.log(treeHeight(tree))
 // Devuelve: 3
 
-//module.exports = { treeHeight }
+
+// La siguiente línea sólo es necesaria para ejecutar los tests de jest
+module.exports = { treeHeight }
