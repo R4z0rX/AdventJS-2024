@@ -39,5 +39,5 @@ Estas son mis soluciones para el Advent.js de [@MiduDev](https://github.com/midu
 | 21  | 🎄 Calcula la altura del árbol de Navidad |       ✅        | [Mirar](Reto%2321.js) |   5 ⭐   |    🟢    |  
 | 22  | 🎁 Genera combinaciones de regalos |       ✅        | [Mirar](Reto%2322.js) |   5 ⭐   |    🟠    |  
 | 23  | 🔢 Encuentra los números perdidos |       ✅        | [Mirar](Reto%2323.js) |   5 ⭐   |    🟢    |  
-| 24  |                                   |       ❌        | [Mirar](Reto%2324.js) |         |    ⌚    |  
+| 24  | 🪞 Verifica si los árboles son espejos mágicos |       ✅        | [Mirar](Reto%2324.js) |   5 ⭐   |    🟠    |  
 | 25  |                                   |       ❌        | [Mirar](Reto%2325.js) |         |    ⌚    |  
