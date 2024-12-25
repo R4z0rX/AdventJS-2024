@@ -40,4 +40,19 @@ Estas son mis soluciones para el Advent.js de [@MiduDev](https://github.com/midu
 | 22  | 🎁 Genera combinaciones de regalos |       ✅        | [Mirar](Reto%2322.js) |   5 ⭐   |    🟠    |  
 | 23  | 🔢 Encuentra los números perdidos |       ✅        | [Mirar](Reto%2323.js) |   5 ⭐   |    🟢    |  
 | 24  | 🪞 Verifica si los árboles son espejos mágicos |       ✅        | [Mirar](Reto%2324.js) |   5 ⭐   |    🟠    |  
-| 25  |                                   |       ❌        | [Mirar](Reto%2325.js) |         |    ⌚    |  
+| 25  |   🪄 Ejecuta el lenguaje mágico   |       ✅        | [Mirar](Reto%2325.js) |   5 ⭐   |    🟠    |  
+| 26  | 🎯 Calcula el porcentaje completado |       ✅        | [Mirar](Reto%2326.js) |   5 ⭐   |    🟢    |  
+
+<p align="center"> 
+  <img  
+    src="../AdventJS-2024_Todos_los_retos_completados.png"
+    alt="Todos los retos completados"
+  />
+</p>
+
+<p align="center"> 
+  <img  
+    src="../AdventJS-2024_Todos_los_logros_obtenidos.png"
+    alt="Todos los logros obtenidos"
+  />
+</p>
