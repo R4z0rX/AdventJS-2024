@@ -5,12 +5,12 @@ Estas son mis soluciones para el Advent.js de [@MiduDev](https://github.com/midu
 <p align="center"> 
   <img  
     height="200"
-    src="https://github.com/user-attachments/assets/acb2747a-6c12-4f90-b975-0fcce495fe02"
+    src="../logo.webp"
     alt="Logo Adventjs"
   />
 </p>
 
-<h3 align="center">🧑‍🚀 25 días de retos con JavaScript • <a href="https://adventjs.dev">adventJS</a> 🚀</h3>
+<h3 align="center">🧑‍🚀 25 días de retos con JavaScript • <a href="https://adventjs.dev">AdventJS</a> 🚀</h3>
 
 ## 🕹️ Retos
 
@@ -43,6 +43,7 @@ Estas son mis soluciones para el Advent.js de [@MiduDev](https://github.com/midu
 | 25  |   🪄 Ejecuta el lenguaje mágico   |       ✅        | [Mirar](Reto%2325.js) |   5 ⭐   |    🟠    |  
 | 26  | 🎯 Calcula el porcentaje completado |       ✅        | [Mirar](Reto%2326.js) |   5 ⭐   |    🟢    |  
 
+### Todos los retos completados
 <p align="center"> 
   <img  
     src="../AdventJS-2024_Todos_los_retos_completados.png"
@@ -50,6 +51,7 @@ Estas son mis soluciones para el Advent.js de [@MiduDev](https://github.com/midu
   />
 </p>
 
+### Todos los logros obtenidos
 <p align="center"> 
   <img  
     src="../AdventJS-2024_Todos_los_logros_obtenidos.png"
